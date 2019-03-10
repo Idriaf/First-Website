@@ -1,0 +1,103 @@
+
+/* 
+
+Ian Riaf
+
+*/
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 10%;
+}
+body {
+  font-style: Times
+  margin-bottom: 50px; /* Margin bottom by footer height */
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.content: {
+  font-style: Times;
+
+}
+
+.container {
+
+  width: auto;
+  padding: 15px 15px;
+}
+a{
+color: #2727e6; text-decoration: none;
+}
+a:hover {
+color: grey;
+text-decoration: none; transition: color 0.5s;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+./* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 38%;
+}
+
+.footer {
+  font-size: 100px
+  position: absolute;
+
+  bottom: 0;
+  width: 100%;
+  height: 130px; 
+  line-height: 30px; 
+  background-color: white;
+}
+
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+img {
+filter: blur(.01px);
+}
+
+img {
+filter: grayscale(35%);
+}
